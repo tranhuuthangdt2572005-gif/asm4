@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600;700&family=Rhodium+Libre&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --natural-color: #fcfbf7;
+}
+
+body {
+  background-color: #f4f6f3;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+  color: #2c3524;
+}
+.card {
+  border-radius: 8px;
+}
+
+/* Custom utility styles for premium UI elements */
+.login-card {
+  border-radius: 24px !important;
+  border: none !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12) !important;
+  overflow: hidden;
+}
+
+.font-josefin {
+  font-family: 'Josefin Slab', serif;
+}
+
+.font-rhodium {
+  font-family: 'Rhodium Libre', serif;
+}
+
+/* Custom focus outline for input fields */
+.form-control:focus {
+  border-color: #627254;
+  box-shadow: 0 0 0 0.25rem rgba(98, 114, 84, 0.25);
+}
+
+.btn-custom {
+  background-color: #627254;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #4b583e;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.btn-custom:active {
+  transform: translateY(0);
+}
+
+/* Premium Navbar and Tabs */
+.glass-nav {
+  background: rgba(252, 251, 247, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(98, 114, 84, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
+}
+
+.nav-link-custom {
+  color: #8c9c82;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+  padding: 8px 12px;
+}
+
+.nav-link-custom:hover, .nav-link-custom.active {
+  color: #627254 !important;
+  border-bottom-color: #627254;
+}
+
+/* Premium dynamic Quiz cards */
+.quiz-card {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid rgba(98, 114, 84, 0.08) !important;
+  border-radius: 20px !important;
+  background-color: var(--natural-color) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02) !important;
+}
+
+.quiz-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(98, 114, 84, 0.14) !important;
+  border-color: rgba(98, 114, 84, 0.25) !important;
+}
+
+/* Standardized layouts for containers */
+.main-wrapper {
+  min-height: 100vh;
+  padding: 40px 15px;
+}
+
+/* Premium clickable option box */
+.option-box {
+  border: 1.5px solid rgba(98, 114, 84, 0.15);
+  border-radius: 16px;
+  padding: 16px 20px;
+  background-color: var(--natural-color);
+  transition: all 0.25s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.option-box:hover {
+  background-color: rgba(98, 114, 84, 0.04);
+  border-color: rgba(98, 114, 84, 0.4);
+}
+
+.option-box.selected {
+  background-color: rgba(98, 114, 84, 0.12) !important;
+  border-color: #627254 !important;
+  box-shadow: 0 4px 12px rgba(98, 114, 84, 0.1) !important;
+}
