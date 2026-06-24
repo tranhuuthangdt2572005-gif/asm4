@@ -29,7 +29,7 @@ export default function RegisterPage() {
       className="position-relative d-flex align-items-center justify-content-center min-vh-100 px-3"
       style={{ background: "#fdf6ef" }}
     >
-      <img
+      {/* <img
         src="/Rectangle 481.png"
         alt="decor"
         className="position-fixed top-0 start-0"
@@ -54,7 +54,7 @@ export default function RegisterPage() {
           zIndex: 0,
           opacity: 0.8,
         }}
-      />
+      /> */}
 
       <div
         className="position-relative w-100 d-flex justify-content-center align-items-center"
