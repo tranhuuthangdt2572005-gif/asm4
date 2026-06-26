@@ -30,33 +30,6 @@ export default function LoginPage() {
       className="position-relative d-flex align-items-center justify-content-center min-vh-100 px-3"
       style={{ background: "#fdf6ef" }}
     >
-      <img
-        src="/Rectangle 481.png"
-        alt="decor"
-        className="position-fixed top-0 start-0"
-        style={{
-          width: "40vw",
-          maxWidth: "600px",
-          height: "auto",
-          pointerEvents: "none",
-          zIndex: 0,
-          opacity: 0.8,
-        }}
-      />
-      <img
-        src="/Rectangle 480.png"
-        alt="decor"
-        className="position-fixed bottom-0 end-0"
-        style={{
-          width: "40vw",
-          maxWidth: "600px",
-          height: "auto",
-          pointerEvents: "none",
-          zIndex: 0,
-          opacity: 0.8,
-        }}
-      />
-
       <div
         className="position-relative w-100 d-flex justify-content-center align-items-center"
         style={{ maxWidth: "1000px", minHeight: "550px", zIndex: 10 }}
