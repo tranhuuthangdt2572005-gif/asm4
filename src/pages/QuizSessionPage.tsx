@@ -64,33 +64,6 @@ export default function QuizSessionPage() {
         className="position-relative min-vh-100 d-flex flex-column justify-content-center align-items-center px-3"
         style={{ background: "#fdf6ef" }}
       >
-        <img
-          src="/Rectangle 481.png"
-          alt="decor"
-          className="position-fixed top-0 start-0"
-          style={{
-            width: "40vw",
-            maxWidth: "600px",
-            height: "auto",
-            pointerEvents: "none",
-            zIndex: 0,
-            opacity: 0.6,
-          }}
-        />
-        <img
-          src="/Rectangle 480.png"
-          alt="decor"
-          className="position-fixed bottom-0 end-0"
-          style={{
-            width: "40vw",
-            maxWidth: "600px",
-            height: "auto",
-            pointerEvents: "none",
-            zIndex: 0,
-            opacity: 0.6,
-          }}
-        />
-
         <div
           className="card border-0 p-5 shadow-lg text-center rounded-4 position-relative"
           style={{
@@ -154,33 +127,6 @@ export default function QuizSessionPage() {
       className="position-relative min-vh-100 pb-5 px-3"
       style={{ background: "#fdf6ef", paddingTop: "110px" }}
     >
-      <img
-        src="/Rectangle 481.png"
-        alt="decor"
-        className="position-fixed top-0 start-0"
-        style={{
-          width: "40vw",
-          maxWidth: "600px",
-          height: "auto",
-          pointerEvents: "none",
-          zIndex: 0,
-          opacity: 0.6,
-        }}
-      />
-      <img
-        src="/Rectangle 480.png"
-        alt="decor"
-        className="position-fixed bottom-0 end-0"
-        style={{
-          width: "40vw",
-          maxWidth: "600px",
-          height: "auto",
-          pointerEvents: "none",
-          zIndex: 0,
-          opacity: 0.6,
-        }}
-      />
-
       {/* Fixed top glassmorphic Navigation Bar */}
       <nav
         className="navbar glass-nav position-fixed top-0 start-50 translate-middle-x my-3 p-3 d-flex align-items-center gap-4"

@@ -169,33 +169,6 @@ export default function QuizDetailPage() {
       className="position-relative min-vh-100 pb-5 px-3"
       style={{ background: "#fdf6ef", paddingTop: "110px" }}
     >
-      <img
-        src="/Rectangle 481.png"
-        alt="decor"
-        className="position-fixed top-0 start-0"
-        style={{
-          width: "40vw",
-          maxWidth: "600px",
-          height: "auto",
-          pointerEvents: "none",
-          zIndex: 0,
-          opacity: 0.6,
-        }}
-      />
-      <img
-        src="/Rectangle 480.png"
-        alt="decor"
-        className="position-fixed bottom-0 end-0"
-        style={{
-          width: "40vw",
-          maxWidth: "600px",
-          height: "auto",
-          pointerEvents: "none",
-          zIndex: 0,
-          opacity: 0.6,
-        }}
-      />
-
       {/* Navigation Header */}
       <nav
         className="navbar glass-nav position-fixed top-0 start-50 translate-middle-x my-3 p-3 d-flex align-items-center gap-4"
